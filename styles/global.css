@@ -1,0 +1,124 @@
+body {
+  background-color: #1e1e1e;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+header {
+  height: 30vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  flex: 3;
+  align-self: center;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: auto;
+  width: 70vw;
+  flex-direction: column;
+  align-self: center;
+}
+
+#header-view-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-view-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+}
+
+#header-view-2 > p {
+  font-size: 5px;
+  color: white;
+}
+
+#header-view-2 > p > span {
+  text-decoration: underline;
+}
+
+.bio-spans {
+  font-size: 4.5px;
+}
+
+#bio-spans-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefe;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  padding: 8px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+
+#confused-bro-name {
+  font-size: 4px;
+}
+
+#profile-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#education-content-span {
+  font-size: 5px;
+  color: white;
+}
+
+#education-section > span:first-child {
+  font-size: 7px;
+  color: white;
+}
+
+#experience-section > span:first-child {
+  font-size: 7px;
+  color: white;
+}
+
+.education-content-span {
+  font-size: 5px;
+  color: white;
+}
+
+hr {
+  background-color: white;
+  height: 1px;
+  border-width: 0px;
+}
+
+#hobbies-and-skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 5px;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.hobbies-and-skill-child {
+  width: 40%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
