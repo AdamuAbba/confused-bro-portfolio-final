@@ -1,8 +1,7 @@
 # Confused Bro's Portfolio
 
-## Development Guide
+This project is a week one assessment sample UI for working with
 
-- give `body` a background color
-- Divide our UI in two sections and give them background colors
-  - Header
-  - Main
+- HTML
+- CSS and
+- Javascript
